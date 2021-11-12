@@ -240,6 +240,12 @@
     margin-top: 20px;
 }
 
+@media screen and (max-width:1025px) {
+  .zornet_ru_kerdsa {
+    width: 80%;
+  } 
+  }
+
 @media screen and (max-width:655px) {
   .zornet_ru_kerdsa {
     width: 65%;
@@ -263,7 +269,7 @@
 
     @media screen and (max-width:450px) {
       .zornet_ru_kerdsa {
-        width: 88%;
+        width: 86%;
       } 
       }
 
