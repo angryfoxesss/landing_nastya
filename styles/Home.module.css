@@ -36,6 +36,12 @@
   } 
   }
 
+  @media screen and (max-width:900px) {
+    .named {
+      padding-top: 35%;
+    } 
+    }
+
 .nav {
   margin-left: auto;
   margin-right: auto;
