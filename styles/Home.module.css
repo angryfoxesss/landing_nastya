@@ -246,6 +246,12 @@
   } 
   }
 
+  @media screen and (max-width:850px) {
+    .zornet_ru_kerdsa {
+      width: 60%;
+    } 
+  }
+
 @media screen and (max-width:655px) {
   .zornet_ru_kerdsa {
     width: 65%;
