@@ -260,6 +260,14 @@
         width: 100%;
       } 
       }
+
+      @media screen and (max-width:420px) {
+        .zornet_ru_kerdsa {
+          width: 88%;
+        } 
+        }
+  
+
   
 
 .zornet_ru_kerdsa:before{
