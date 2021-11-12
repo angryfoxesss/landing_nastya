@@ -135,6 +135,7 @@ return (
 </div>
  </div>
  <div className={styles.slide}>
+ <div className={styles.named}><h2>Портфолио</h2></div>
    <div className={styles.test}>
  <div className={styles.zornet_ru_kerdsa}>
     <div className={styles.adaptberskin}><div><span>ZorNet: Создание сайта на uCoz</span></div></div>
