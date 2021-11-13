@@ -6,6 +6,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react'
 import styles from '../styles/Home.module.css'
 import logo1 from '../public/logo1.png'
+import wa from '../public/wa.png'
+import fb from '../public/fb.png'
+import bh from '../public/bh.png'
+import inst from '../public/inst.png'
+
 
 function MyVerticallyCenteredModal(props) {
   return (
@@ -80,7 +85,7 @@ return (
       <p>Графический дизайнер<br /> 20 лет, Москва</p>
     </div>
     <div className={styles.column}>
-      <span>RU|ENG</span>
+      <span>Россия, Москва</span>
     </div>
   </div>
   <div className={styles.photo}>
@@ -158,6 +163,16 @@ return (
         show={modalShow}
         onHide={() => setModalShow(false)}
       />
+   </div>
+  
+   <div className={styles.social}>
+   <div className={styles.logos}><Image  src={wa} alt="Picture of the author" /></div>
+   <div className={styles.logos}><Image  src={fb} alt="Picture of the author" /></div>
+   <div className={styles.logos}><Image  src={bh} alt="Picture of the author" /></div>
+   <div className={styles.logos}><Image  src={inst} alt="Picture of the author" /></div>
+   </div>
+   <div className={styles.author}>
+      <div className={styles.sign}><p>Powered by <span>A</span>ngryfoxess</p></div>
    </div>
  </div >
 </div>

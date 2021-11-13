@@ -9,6 +9,7 @@
   margin-right: auto;
   border-bottom: tomato 1px solid;
   min-height: 800px;
+  position: relative;
 }
 
 @media screen and (max-width:900px) {
@@ -322,4 +323,39 @@
     font-weight: 500;
     text-align: center;
     padding-top: 3%;
+  }
+
+  .author {
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+  }
+
+  .author p {
+    font-size: 12px;
+  }
+
+  .sign span{
+    color: red;
+    
+  }
+
+.socialCont {
+  width: 100%;
+}
+
+  .social {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .logos {
+    width: 30px;
+   
+    
   }
