@@ -61,18 +61,18 @@ return (
   <span className={styles.third}></span>
   </label>
 <ul className={styles.hiddenMenu}>
-  <li><a href="#slide1">Обо мне</a></li>  
+  <li><a href="#about">Обо мне</a></li>  
   <li><a href="">Умения</a></li>
-  <li><a href="">Портфолио</a></li>  
-  <li><a href="">Контакты</a></li>  
+  <li><a href="#portfolio">Портфолио</a></li>  
+  <li><a href="#contacts">Контакты</a></li>  
 </ul>
    </div>
    <div className={styles.navs}>
   <div><span>Анастасия Солопенко</span></div>
-  <li><a href="#slide1">Обо мне</a></li>  
+  <li><a href="#about">Обо мне</a></li>  
   <li><a href="">Умения</a></li>
-  <li><a href="#slide2">Портфолио</a></li>  
-  <li><a href="">Контакты</a></li>  
+  <li><a href="#portfolio">Портфолио</a></li>  
+  <li><a href="#contacts">Контакты</a></li>  
   
   </div>
  </div>
@@ -92,10 +92,10 @@ return (
       <Image src={photo} alt="Picture of the author" />
       </div>
  </div>
- <div id='slide1' className={styles.slide}>
+ <div id='about' className={styles.slide}>
   <div className={styles.named}><h2>Обо мне</h2></div>
  </div>
- <div id='slide2' className={styles.slide}>
+ <div id='portfolio' className={styles.slide}>
  <div className={styles.named}><h2>Портфолио</h2></div>
  <div className={styles.test}>
  <div className={styles.zornet_ru_kerdsa}>
@@ -150,7 +150,7 @@ return (
 </div>
 </div>
  </div>
- <div className={styles.slide}>
+ <div id='contacts' className={styles.slide}>
  <div className={styles.named}><h2>Контакты</h2></div>
  <p>Хотите связаться?<br/>
  Напишите мне соощение!</p>
