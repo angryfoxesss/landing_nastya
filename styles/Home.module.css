@@ -12,6 +12,14 @@
   position: relative;
 }
 
+.slide p {
+  font-size: 22px;
+  font-weight: 500;
+  text-align: center;
+  padding-top: 5%;
+}
+
+
 @media screen and (max-width:900px) {
   .slide {
     width: 85%;
@@ -324,13 +332,7 @@
   } 
   }
 
-  .slide p {
-    font-size: 22px;
-    font-weight: 500;
-    text-align: center;
-    padding-top: 3%;
-  }
-
+  
   .author {
    position: absolute;
    bottom: 0;

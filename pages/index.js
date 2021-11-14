@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react'
 import styles from '../styles/Home.module.css'
 import logo1 from '../public/logo1.png'
+import logo2 from '../public/logo2.png'
 import wa from '../public/wa.png'
 import fb from '../public/fb.png'
 import bh from '../public/bh.png'
@@ -62,7 +63,7 @@ return (
   </label>
 <ul className={styles.hiddenMenu}>
   <li><a href="#about">Обо мне</a></li>  
-  <li><a href="">Умения</a></li>
+  <li><a href="">Фирменный стиль</a></li>
   <li><a href="#portfolio">Портфолио</a></li>  
   <li><a href="#contacts">Контакты</a></li>  
 </ul>
@@ -70,7 +71,7 @@ return (
    <div className={styles.navs}>
   <div><span>Анастасия Солопенко</span></div>
   <li><a href="#about">Обо мне</a></li>  
-  <li><a href="">Умения</a></li>
+  <li><a href="#skills">Навыки</a></li>
   <li><a href="#portfolio">Портфолио</a></li>  
   <li><a href="#contacts">Контакты</a></li>  
   
@@ -95,8 +96,12 @@ return (
  <div id='about' className={styles.slide}>
   <div className={styles.named}><h2>Обо мне</h2></div>
  </div>
+ <div id='skills' className={styles.slide}>
+  <div className={styles.named}><h2>Навыки</h2></div>
+  <p>Я работаю в следующих программах:</p>
+ </div>
  <div id='portfolio' className={styles.slide}>
- <div className={styles.named}><h2>Портфолио</h2></div>
+ <div className={styles.named}><h2>Портфолио- логотипы</h2></div>
  <div className={styles.test}>
  <div className={styles.zornet_ru_kerdsa}>
     <div className={styles.adaptberskin}><div><span>ZorNet: Создание сайта на uCoz</span></div></div>
@@ -108,19 +113,12 @@ return (
   <Image src={logo1} alt="Picture of the author" />
     <Carousel.Caption>
       <h3>First slide label</h3>
-      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
-    <img
-      className="d-block w-100"
-      src="holder.js/800x400?text=Second slide&bg=282c34"
-      alt="Second slide"
-    />
-
+  <Image src={logo2} alt="Picture of the author" />
     <Carousel.Caption>
       <h3>Second slide label</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
@@ -140,7 +138,7 @@ return (
 </div>
  </div>
  <div className={styles.slide}>
- <div className={styles.named}><h2>Портфолио</h2></div>
+ <div className={styles.named}><h2>Портфолио- фирменный стиль</h2></div>
    <div className={styles.test}>
  <div className={styles.zornet_ru_kerdsa}>
     <div className={styles.adaptberskin}><div><span>ZorNet: Создание сайта на uCoz</span></div></div>
